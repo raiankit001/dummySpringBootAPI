@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost/studentmanagement
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: 2004
+  application:
+    name: StudentManagement
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
